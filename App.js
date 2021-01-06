@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Image, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
 import { loadImageFromCoordinates } from './image-loader';
 
-const CELLS = 4;
+const CELLS = 5;
 
 const getCell = (width, offset) => {
   const segmentWidth = width / CELLS;
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   imagestyle: {
-    width: 500,
-    height: 500
+    width: 400,
+    height: 400
   }
 });
