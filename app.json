@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "boop-snoot",
+    "name": "Boop the Snoot",
+    "description": "Boop the snoot and put a smile on your face",
     "slug": "boop-snoot",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.humberto.boopsnoot"
     },
     "web": {
       "favicon": "./assets/favicon.png"
